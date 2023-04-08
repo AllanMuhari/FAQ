@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700;6..96,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Bodoni Moda", serif;
+  font-family: "Nunito", sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+.content {
+  width: 50rem;
+  height: 26rem;
+  background-color: white;
+  border-radius: 25px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section1 img {
+  max-width: 50rem;
+  margin-left: -29rem;
+  margin-top: -7rem;
+  position: relative;
+}
+.section2 img {
+  margin-top: -31rem;
+  max-width: 25rem;
+  position: absolute;
+  margin-left: -3rem;
+}
+.section3 img {
+  position: absolute;
+  max-width: 10rem;
+  margin-top: -25rem;
+  margin-left: -3.7rem;
+}
+.faqs {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+}
+.faqs h1 {
+  font-weight: bold;
+  color: hsl(238, 29%, 16%);
+}
+.line1,
+.line2,
+.line3,
+.line4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.1px solid hsl(240, 6%, 50%);
+}
+.line1 span {
+  margin-left: 5rem;
+}
+.line1,
+.line2,
+.line3,
+.line4,
+.line5 p {
+  font-size: 12px;
+  color: hsl(240, 6%, 50%);
+}
+.line2 h4 {
+  color: hsl(237, 12%, 33%);
+}
+.line2 span {
+  margin-left: 4.5rem;
+}
+.line3 span {
+  margin-left: 8.4rem;
+}
+.line4 span {
+  margin-left: 8.4rem;
+}
+.line5 span {
+  margin-left: 6.2rem;
+}
+.line5 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.1px solid hsl(240, 6%, 50%);
+  margin-bottom: 2.5rem;
+}
